@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="Content-Security-Policy" 
+        content="default-src 'self'; script-src 'self' 'unsafe-eval' 'wasm-unsafe-eval' https://cdn.jsdelivr.net https://storage.googleapis.com blob:; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; font-src 'self' data:; connect-src 'self' https://cdn.jsdelivr.net https://storage.googleapis.com https://magenta.github.io; worker-src 'self' blob:; media-src 'self' blob:;">
+  <meta name="description" content="AI-powered musical structure analysis and visualization">
+  <meta name="theme-color" content="#4a90e2">
+  <link rel="manifest" href="/manifest.json">
+  <title>Music Structure Tree</title>
+</head>
+<body>
+  <div id="app"></div>
+  <div id="sr-announcer" class="sr-only" aria-live="polite" aria-atomic="true"></div>
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>

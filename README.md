@@ -6,6 +6,10 @@ AI-powered musical structure analysis and visualization for education.
 
 Music Structure Tree is a pure frontend web application that analyzes and visualizes musical compositions as hierarchical tree structures. The system uses AI-powered analysis (via TensorFlow.js) combined with music theory rules to identify and display musical units (motives, sub-phrases, phrases, periods, themes) in a tree format.
 
+## Live Demo
+
+Try it now: https://music-structured-tree-v02.vercel.app/
+
 ## Features
 
 - **File Upload**: Support for MusicXML (.mxl, .musicxml) and MP3 files
